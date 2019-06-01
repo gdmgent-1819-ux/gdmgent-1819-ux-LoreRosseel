@@ -1,0 +1,163 @@
+* {
+  font-family: 'Raleway', sans-serif;
+} 
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--t-body);
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.landing {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  background-color: var(--c-grijs);
+  height: 75px;
+  width: 100%;
+  margin: 0;
+}
+
+.fa-campground {
+  position: absolute;
+  font-size: 40px;
+  color: var(--c-geel);
+  float: left;
+  margin-left: 150px;
+  margin-top: 15px;
+  
+}
+
+.navBar {
+  float: right;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 50px;
+}
+
+
+nav a{
+  text-decoration: none;
+  color: var(--c-wit);
+  font-size: 20px
+}
+
+nav a:hover{
+  color: var(--c-geel);
+}
+
+.landingImg {
+  margin: 0;
+  padding: 0;
+  height: calc(100vh - 75px);
+  /*background-image: url('../../foto/holly-mandarich-326680-unsplash.jpg');*/
+  background-image: url("../foto/holly-mandarich-326680-unsplash.jpg");
+  background-size: 100%;
+  background-position-y: -250px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 250px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  height: calc(100vh-75px);
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+main header{
+  text-align: center;
+}
+ main header .welkom {
+   font-size: 40px;
+   color: var(--c-geel);
+   margin-top: 50px;
+   margin-bottom: 100px;
+ }
+
+ .mainSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+
+.info{
+  font-size: 18px;
+  margin: 0;
+  line-height: 25px;
+  width: 27vw;
+  margin-right: 250px;
+  font-family: var(--t-primary);
+}
+.info p {
+  margin-bottom: 30px;
+}
+
+.mainAside section {
+  margin-top: 30px;
+    margin-left: 250px;
+    height: 250px;
+    width: 350px;
+}
+
+.sectionOne{
+  background-image: url('../foto/camping-campsite-friends-1266009.jpg');
+  background-size: cover;
+}
+.sectionTwo{
+  background-image: url('../foto/chris-holder-658988-unsplash.jpg');
+  background-size: cover;
+}
+
+footer {
+  height: 75px;
+  background: var(--c-grijs);
+  color: var(--c-wit);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 100px;
+}
+
+footer p {
+  font-size: 15px;
+  color: var(--c-wit);
+}
+
+.socialeMedia {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 450px;
+}
+
+.fa-facebook-f{
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: var(--c-geel);
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.fa-instagram{
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: var(--c-geel);
+  font-size: 30px;
+  text-align:center;
+}

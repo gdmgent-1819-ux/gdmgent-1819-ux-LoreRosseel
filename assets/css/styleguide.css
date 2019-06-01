@@ -1,0 +1,129 @@
+.container{
+    background-color: #DBDBDA;
+}
+.sg-title {
+    color: white;
+    margin: 0 ;
+    font-size: 80px;
+    text-shadow: 1px 1px 2px 1px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+/*.sg-subtitle {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}*/
+.grijs{
+    color: var(--c-grijs);
+}
+
+.geel{
+    color: var(--c-geel);
+}
+
+.wit{
+    color: var(--c-wit);
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.terrein{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-wit);   
+}
+
+.terrein:hover{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-geel);
+}
+
+.bungalow{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-wit);  
+    margin-left:  160px
+}
+
+.bungalow:hover{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-geel);
+}
+
+.faciliteiten{ 
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+.hier{
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+.kampeerterrein{
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+.bung{
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+div {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+label { 
+    min-width: 200px;
+    display: inline-block;
+    color: var(--c-grijs);
+}
+
+input:focus {
+    outline-color: var(--c-geel)
+}
+
+input{
+    border: none;
+    border-left: 2px solid var(--c-geel);
+    background-color: #eeeef4;
+    border-radius: 2px;
+}
+
+textarea{
+    border: none;
+    border-left: 2px solid var(--c-geel);
+    background-color: #eeeef4;
+    border-radius: 2px;
+}
+
+textarea:focus{
+    outline-color: var(--c-geel)
+}
+
+button{
+    color: var(--c-grijs);
+    border-left: 2px solid var(--c-geel);
+}
+
+button:focus {
+    outline-color: var(--c-geel);
+}
+
+p{
+    color: var(--c-grijs);
+}
+
+
+

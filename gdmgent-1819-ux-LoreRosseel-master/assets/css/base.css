@@ -61,8 +61,8 @@ nav a:hover{
   margin: 0;
   padding: 0;
   height: calc(100vh - 75px);
-  /*background-image: url("../../Foto/holly-mandarich-326680-unsplash.jpg");*/
-  background-image: url("../../foto/holly-mandarich-326680-unsplash.jpg");
+  /*background-image: url('../../foto/holly-mandarich-326680-unsplash.jpg');*/
+  background-image: url("../foto/holly-mandarich-326680-unsplash.jpg");
   background-size: 100%;
   background-position-y: -250px;
   background-repeat: no-repeat;
@@ -113,11 +113,11 @@ main header{
 }
 
 .sectionOne{
-  background-image: url('../../Foto/camping-campsite-friends-1266009.jpg');
+  background-image: url('../Foto/camping-campsite-friends-1266009.jpg');
   background-size: cover;
 }
 .sectionTwo{
-  background-image: url('../../Foto/chris-holder-658988-unsplash.jpg');
+  background-image: url('../Foto/chris-holder-658988-unsplash.jpg');
   background-size: cover;
 }
 

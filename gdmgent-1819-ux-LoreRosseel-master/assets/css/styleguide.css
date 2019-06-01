@@ -34,6 +34,51 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.terrein{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-wit);   
+}
+
+.terrein:hover{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-geel);
+}
+
+.bungalow{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-wit);  
+    margin-left:  160px
+}
+
+.bungalow:hover{
+    position: absolute;
+    background-color: var(--c-grijs);
+    color: var(--c-geel);
+}
+
+.faciliteiten{ 
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+.hier{
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+.kampeerterrein{
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
+.bung{
+    color: var(--c-geel);
+    text-decoration: underline;
+}
+
 div {
     margin-bottom: 10px;
     padding: 10px;

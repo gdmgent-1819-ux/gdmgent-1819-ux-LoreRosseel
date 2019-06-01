@@ -133,6 +133,7 @@ footer {
 
 footer p {
   font-size: 15px;
+  color: var(--c-wit);
 }
 
 .socialeMedia {

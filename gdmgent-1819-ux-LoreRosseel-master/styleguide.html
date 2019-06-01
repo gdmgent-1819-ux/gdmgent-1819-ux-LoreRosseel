@@ -11,10 +11,140 @@
 <body>
 <div class="container">
     <h1 class="sg-title">Digital styleguide</h1>
+
     <h2 class="sg-subtitle">Kleuren</h2>
+        <h3 class="grijs">Grijs</h3>
+        <p class="grijs">#716E66</p>
+
+        <h3 class="geel">Geel</h3>
+        <p class="geel">hsla(45, 65%, 52%, 1)</p>
+
+        <h3 class="wit">Wit</h3>
+        <p class="wit">#FFFFFF</p>
+
     <h2 class="sg-subtitle">Typografie</h2>
+        <p class="raleway">Raleway</p>
+
     <h2 class="sg-subtitle">Knopppen</h2>
+        <div class="faciliteiten">faciliteiten</div>
+        <div class="hier">hier</div>
+        <div class="kampeerterrein">kampeerterrein</div>
+        <div class="bung">bungalow</div>
+        <div class="terrein">Kampeerterrein</div>
+        <div class="bungalow">Bungalow</div>
+
+        
+
     <h2 class="sg-subtitle">Formulier</h2>
+
+       <h4>6.1 Kampeerterrein</h4>
+    <form>
+        <div>
+            <input type="radio" name="terrein" id="volledig">
+            <label for="volledig">Ik wil een volledig terrein huren.</label>
+        </div>
+
+        <div>
+            <input type="radio" name="terrein" id="gedeeld">
+            <label for="gedeeld">Ik wil een gedeeld terrein huren.</label>   
+        </div>
+
+        <div>
+            <input type="radio" name="tent" id="tent">
+            <label for="tent">Ik wil gebruik maken van de tent(en) van Camping De Bosrand.</label>
+        </div>
+
+        <div>
+            <label for="aantal">Aantal personen</label>
+            <input type="number" name="aantal" id="aantal">
+        </div>
+
+        <div>
+            <p>Kies uw verblijfsperiode.</p>
+            <label for="verblijf">Van</label>
+            <input type="date" name="verblijf" id="verblijf">
+        </div>
+
+        <div>
+            <label for="verblijf">Tot</label>
+            <input type="date" name="verblijf" id="verblijf">
+        </div>
+
+        <button type="submit">Verstuur</button>
+    </form>
+<br>
+
+        <h4>6.2 Bungalow</h4>
+    <form>
+        <div>
+            <input type="radio" name="peronen" id="10">
+            <label for="10">Bungalow voor 10 personen.</label>
+        </div>
+
+        <div>
+            <input type="radio" name="peronen" id="15">
+            <label for="15">Bungalow voor 15 personen.</label>
+        </div>
+
+        <div>
+            <input type="radio" name="peronen" id="20">
+            <label for="20">Bungalow voor 20 personen.</label>
+        </div>
+
+        <div>
+            <input type="radio" name="peronen" id="5">
+            <label for="5">Bungalow voor < 5 personen.</label>
+        </div>
+
+        <div>
+            <p>Kies uw verblijfsperiode.</p>
+            <label for="verblijf">Van</label>
+            <input type="date" name="verblijf" id="verblijf">
+        </div>
+
+        <div>
+            <label for="verblijf">Tot</label>
+            <input type="date" name="verblijf" id="verblijf">
+        </div>
+
+        <button type="submit">Verstuur</button>
+
+    </form>
+<br>
+
+        <h4>7.0 Contact</h4>
+    <form>
+            <div class="voornaam">
+                <label for="voornaam">Voornaam*</label>
+                <input placeholder="Lore" type="text" id="voornaam" name="voornaam">
+            </div>
+
+            <div>
+                <label for="familienaam">Familienaam</label>
+                <input placeholder="Rosseel" type="text" id="familienaam" name="familienaam">
+            </div>
+
+            <div>
+                <label for="gsm-nummer">Gsm-nummer</label>
+                <input placeholder="0473417436" type="tel" id="gsm-nummer" name="gsm-nummer">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id=email>
+            </div>
+
+            <div>
+                <label for="vraag">Uw vraag*</label>
+                <textarea type="text" id="vraag" name="Uw vraag"></textarea>
+            </div>
+
+            <button type="submit">Verstuur</button>
+
+    </form>
+<br>
+    
+
     <h2 class="sg-subtitle">Componenten</h2>
 </div>
 </body>

@@ -61,7 +61,8 @@ nav a:hover{
   margin: 0;
   padding: 0;
   height: calc(100vh - 75px);
-  background-image: url('../../Foto/holly-mandarich-326680-unsplash.jpg');
+  /*background-image: url('../../Foto/holly-mandarich-326680-unsplash.jpg');*/
+  background-image: url("gdmgent-1819-ux-LoreRosseel-master/Foto/holly-mandarich-326680-unsplash.jpg");
   background-size: 100%;
   background-position-y: -250px;
   background-repeat: no-repeat;

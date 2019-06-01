@@ -62,8 +62,7 @@ nav a:hover{
   padding: 0;
   height: calc(100vh - 75px);
   /*background-image: url('../../foto/holly-mandarich-326680-unsplash.jpg');*/
- /* background-image: url("../foto/holly-mandarich-326680-unsplash.jpg");*/
-  background-image: url("assets/foto");
+  background-image: url("../foto/holly-mandarich-326680-unsplash.jpg");
   background-size: 100%;
   background-position-y: -250px;
   background-repeat: no-repeat;
